@@ -1,0 +1,6 @@
+flowchart LR
+ U[Clients] --> G[API Gateway] --> A[Access Control] --> O[AI Orchestrator]
+ O --> M[Model Serving]
+ O --> R[RAG] --> V[(Vector Store)]
+ O --> C[Authorized Connectors]
+ O --> L[Observability and Audit]
